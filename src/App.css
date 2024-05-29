@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --fs-xxxs: 14px;
+  --fs-xxs: 14.83px;
+  --fs-sm: 16px;
+  --fs-md: 20px;
+  --fs-2md: 24px;
+  --fs-3md: 32px;
+  --fs-lg: 36px;
+  --fs-xl: 40.44px;
+  --fs-2xl: 48px;
+  --fs-3xl: 64px;
+  --fs-4xl: 79px;
+  --fs-5xl: 108.22px;
+  /* ------------ font clr--------- */
+  --fc-white: #FFFFFF;
+  --fc-black: #000000;
+  --fc-orange: #FC9800;
+  --fc-grey: #FFFFFF80;
+  --fc-lightblack: #4D4D4D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ============ font clr =================== */
+.clr-white {
+  color: var(--fc-white);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.clr-black {
+  color: var(--fc-black);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.clr-orange {
+  color: var(--fc-orange);
 }
 
-.App-link {
-  color: #61dafb;
+.clr-grey {
+  color: var(--fc-grey);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clr-lightblack {
+  color: var(--fc-lightblack);
+}
+
+/* =========== font weight ================== */
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-extrabold {
+  font-weight: 900;
+}
+
+/* ============= font size ================== */
+.text-14 {
+  font-size: var(--fs-xxxs);
+}
+
+.text-15 {
+  font-size: var(--fs-xxs);
+}
+
+.text-16 {
+  font-size: var(--fs-sm);
+}
+
+.text-20 {
+  font-size: var(--fs-md);
+}
+
+.text-24 {
+  font-size: var(--fs-2md);
+}
+
+.text-32 {
+  font-size: var(--fs-3md);
+}
+
+.text-36 {
+  font-size: var(--fs-lg);
+}
+
+.text-40 {
+  font-size: var(--fs-xl);
+}
+
+.text-48 {
+  font-size: var(--fs-2xl);
+}
+
+.text-64 {
+  font-size: var(--fs-3xl);
+}
+
+.text-79 {
+  font-size: var(--fs-4xl);
+}
+
+.text-108 {
+  font-size: var(--fs-5xl);
+}
+
+/* ========== line height ======== */
+.lh-17 {
+  line-height: 17.7px;
+}
+
+.lh-19 {
+  line-height: 19.36px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-25 {
+  line-height: 25px;
+}
+
+.lh-29 {
+  line-height: 29px;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.lh-32 {
+  line-height: 32.2px;
+}
+
+.lh-43 {
+  line-height: 43.57px;
+}
+
+.lh-48 {
+  line-height: 48.99px;
+}
+
+.lh-58 {
+  line-height: 58.09px;
+}
+
+.lh-77 {
+  line-height: 77.45px;
+}
+
+.lh-95 {
+  line-height: 95.67px;
+}
+
+.lh-130 {
+  line-height: 130.91;
+}
+
+/* =============== font family =============== */
+.ff-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'SF Pro Text', sans-serif;
+  src: url(../src/assets/font/FontsFree-Net-SFProText-Regular.ttf);
+}
+/* ======================= hero-sec ======================= */
+.gap-21{
+  gap: 21px;
+}
+.btnn{
+  border: 1px solid var(--fc-white);
+  padding: 19px 32px;
+  border-radius: 189px;
+  background: var(--fc-black);
+}
+.gap-46{
+  gap: 46px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+
+@media (min-width:1600px) {
+ .custom-container{
+  max-width: 1440px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
 }
