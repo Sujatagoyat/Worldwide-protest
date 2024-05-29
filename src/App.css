@@ -13,7 +13,7 @@
   --fs-3md: 32px;
   --fs-lg: 36px;
   --fs-xl: 34.44px;
-  --fs-2xl: 48px;
+  --fs-2xl: 22px;
   --fs-3xl: 64px;
   --fs-4xl: 79px;
   --fs-5xl: 108.22px;
@@ -241,6 +241,15 @@ bottom: 0px;
 .pb-20{
   padding-bottom: 20px;
 }
+/* ======================= social media box ========================= */
+.yellow-box{
+  min-height: 136px;
+  background: var(--fc-yellow);
+  padding: 10px;
+}
+.gap-12{
+  gap: 12px;
+}
 
 @media (min-width:1535.99px){
  .custom-container{
@@ -275,6 +284,7 @@ bottom: 0px;
     --fs-sm: 16px;
     --fs-md: 20px;
     --fs-xl: 40.44px;
+    --fs-2xl: 48px;
   }
   .ps-lg-19{
     padding-left: 19px;
@@ -291,6 +301,14 @@ bottom: 0px;
   .h_754{
     height: 754px;
   }
+  .gap-md-22{
+    gap: 22px;
+  }
+}
+@media (min-width:576px) {
+ :root{
+  --fs-2xl: 38px;
+ }
 }
  @media (max-width:992px) {
   label[for="menu-icon"] {
