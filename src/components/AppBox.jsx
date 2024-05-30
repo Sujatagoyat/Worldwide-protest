@@ -14,7 +14,7 @@ function AppBox() {
                  <h2 className='fw-semibold text-48 lh-58 ff-inter clr-white mb-0'>twitter</h2>
                  </div>
             </div>
-            <div className="col-lg-4 col-6 d-flex flex-column align-items-lg-st art align-items-center pt-lg-0 pt-4  ">
+            <div className="col-lg-4 col-6 d-flex flex-column align-items-lg-start align-items-center pt-lg-0 pt-4  ">
                  <div className='d-flex align-items-center gap-md-22 gap-12'>
                     <img src={telegramImg} alt="telegramImg" />
                     <h2 className='fw-semibold text-48 lh-58 ff-inter clr-white mb-0'>Telegram</h2>

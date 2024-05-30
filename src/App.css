@@ -250,6 +250,26 @@ bottom: 0px;
 .gap-12{
   gap: 12px;
 }
+/* ========================= about us ============================== */
+.about-bg-img{
+  background-image: url(./assets/Images/png/aboy-bg-img.png);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+.py_lg_134_104{
+  padding-top: 134px;
+  padding-bottom: 104px;
+}
+.gap-23{
+  gap: 23px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.max-w-550{
+  max-width: 550px;
+}
 
 @media (min-width:1535.99px){
  .custom-container{
