@@ -11,7 +11,7 @@
   --fs-md: 14px;
   --fs-2md: 24px;
   --fs-3md: 32px;
-  --fs-lg: 36px;
+  --fs-lg: 28px;
   --fs-xl: 34.44px;
   --fs-2xl: 22px;
   --fs-3xl: 34px;
@@ -142,7 +142,7 @@
 }
 
 .lh-43 {
-  line-height: 43.57px;
+  line-height: 28.57px;
 }
 
 .lh-48 {
@@ -399,6 +399,18 @@ bottom: 0px;
 .pt-20{
   padding-top: 20px;
 }
+.mt-15{
+  margin-top: 15px;
+}
+/* ===============================place======================= */
+.place_box{
+  max-width: 1780px;
+  width: 100%;
+  height: 136px;
+  background: var(--fc-yellow);
+  Rotate :-2.02deg;
+}
+
 
 @media (min-width:576px) {
   :root{
@@ -418,6 +430,7 @@ bottom: 0px;
   :root{
     --fs-sm: 16px;
     --fs-md: 20px;
+    --fs-lg: 30px;
     --fs-xl: 40.44px;
     --fs-2xl: 48px;
     --fs-3xl: 64px;
@@ -466,6 +479,9 @@ bottom: 0px;
   .pt-md-70{
     padding-top: 70px;
   }
+  .lh-43 {
+    line-height: 38.57px;
+  }
 }
 @media (min-width:992px) {
   .pb-lg-62{
@@ -509,6 +525,15 @@ bottom: 0px;
   }
   .pb-lg-27{
     padding-bottom: 27px;
+  }
+  :root{
+    --fs-lg: 36px;
+  }
+  .lh-43 {
+    line-height: 43.57px;
+  }
+  .mt-md-40{
+    margin-top: 40px;
   }
 }
 

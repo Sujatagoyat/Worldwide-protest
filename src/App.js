@@ -7,6 +7,7 @@ import AppBox from './components/AppBox';
 import AboutUs from './components/AboutUs';
 import Tokeonomics from './components/Tokeonomics';
 import Utility from './components/Utility';
+import Place from './components/Place';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <AboutUs/>
     <Tokeonomics/>
     <Utility/>
+    <Place/>
     </div>
   );
 }
