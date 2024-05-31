@@ -7,7 +7,7 @@ import YellowLine5 from '../assets/Images/svg/yellow-line-5.svg'
 
 function Roadmap() {
   return (
-    <div className='roadmap-bg-img py-lg-244'>
+    <div className='roadmap-bg-img py-lg-244 token_bg_black d-none'>
           <h2 className='fw-extrabold text-64 lh-77 clr-white ff-inter text-center mb-0 pb-lg-20 pb-10'>ROADMAP</h2> 
           <p className='fw-normal text-16 lh-30 ff-inter clr-white opacity_70 max-w-894 mx-auto text-center mb-0 pb-lg-141'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>  
           <div className='d-flex gap-2'>
@@ -32,7 +32,7 @@ function Roadmap() {
                <p className='fw-normal text-16 lh-30 ff-inter clr-white opacity_70 max-w-196'>Introduce community  governance mechanisms.</p>
                </div>
             </div>
-            <div className='d-flex align-items-end gap-lg-18'>             
+            <div className='d-flex align-items-end gap-lg-18 mb-lg-50'>             
                 <img src={YellowLine4} alt="YellowLine" />
                 <div>
                <h3 className='fw-extrabold text-24 lh-29 clr-white ff-inter max-w-237 pt-5'> Partnerships and Influencer Collaborations (Q4 2024)</h3>

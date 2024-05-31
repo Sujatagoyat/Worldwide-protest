@@ -10,18 +10,20 @@ import Utility from './components/Utility';
 import Place from './components/Place';
 import Ecosystem from './components/Ecosystem';
 import Roadmap from './components/Roadmap';
+import LatestNews from './components/LatestNews';
 
 function App() {
   return (
-    <div >
-     <HeroSection/>
+    <div className='overflow-hidden' >
+    <HeroSection/>
     <AppBox/>
     <AboutUs/>
     <Tokeonomics/>
     <Utility/>
     <Place/>
     <Ecosystem/>
-  <Roadmap/>
+    <Roadmap/>
+    <LatestNews/>
     </div>
   );
 }

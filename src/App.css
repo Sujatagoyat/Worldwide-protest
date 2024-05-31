@@ -174,6 +174,9 @@
   font-family: 'SF Pro Text', sans-serif;
   src: url(../src/assets/font/FontsFree-Net-SFProText-Regular.ttf);
 }
+.ff-pro{
+  font-family: 'SF Pro Text', sans-serif;
+}
 /* ======================= hero-sec ======================= */
 .gap-21{
   gap: 21px;
@@ -438,7 +441,7 @@ bottom: 0px;
 }
 .py-lg-244{
   padding-top: 244px;
-  padding-bottom: 244px;
+  padding-bottom: 378px;
 }
 .opacity_70{
   opacity: 70%;
@@ -460,6 +463,50 @@ bottom: 0px;
 }
 .gap-lg-18{
   gap: 18px;
+}
+.mb-lg-50{
+  margin-bottom: 50px;
+}
+/* ========================= latest news ================================ */
+.py_lg_125_96{
+  padding-top: 125px;
+  padding-bottom: 96px;
+}
+.latest_card{
+  max-width: 367px;
+  width: 100%;
+  border: 1px solid var(--fc-black);
+  padding: 26px 6px 19px 13px;
+}
+.pt-21{
+  padding-top: 21px;
+}
+.max-w-321{
+  max-width: 321.07px;
+}
+.pt-lg-27{
+  padding-top: 27px;
+}
+.max-w-240{
+  max-width: 240px;
+}
+.mb-lg-27{
+  margin-bottom: 27px;
+}
+.pb-lg-96{
+  padding-bottom: 96px;
+}
+.phone-pstn{
+  top: 14%;
+  left: 9%;
+}
+.paper-pstn{
+  top: 9%;
+ left: 14%;
+}
+.laptop_pstn{
+  top: 4%;
+  right: 5%;
 }
 
 @media (min-width:576px) {
@@ -610,6 +657,12 @@ bottom: 0px;
   }
   .max-w-lg-565{
     max-width: 565px;
+  }
+  .roadmap-bg-img{
+    background-image: url(./assets/Images/png/roadmap-bg-img.png);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
