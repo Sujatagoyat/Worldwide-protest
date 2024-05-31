@@ -9,6 +9,7 @@ import Tokeonomics from './components/Tokeonomics';
 import Utility from './components/Utility';
 import Place from './components/Place';
 import Ecosystem from './components/Ecosystem';
+import Roadmap from './components/Roadmap';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Utility/>
     <Place/>
     <Ecosystem/>
+  <Roadmap/>
     </div>
   );
 }

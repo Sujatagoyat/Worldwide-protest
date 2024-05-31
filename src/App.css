@@ -182,7 +182,7 @@
   border: 1px solid var(--fc-white);
   padding: 10px 20px;
   border-radius: 189px;
-  background: var(--fc-black);
+  background: transparent
 }
 .btn-style:hover{
     border: 1px solid transparent;
@@ -232,9 +232,9 @@
 bottom: 0px;
   right: 0;
 }
-.max-w-450{
+/* .max-w-450{
   max-width: 450px;
-}
+} */
 .ps-10{
   padding-left: 10px;
 }
@@ -409,7 +409,9 @@ bottom: 0px;
   Rotate :-2.02deg;
 }
 /* ============================ ecosystem ===================== */
-
+.max-w-550{
+  max-width: 550px;
+}
 .h-550{
   height: 550px;
 }
@@ -427,6 +429,38 @@ bottom: 0px;
 .max-w-466{
   max-width: 466px;
 }
+/* ================================== roadmap ================================= */
+.roadmap-bg-img{
+  background-image: url(./assets/Images/png/roadmap-bg-img.png);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.py-lg-244{
+  padding-top: 244px;
+  padding-bottom: 244px;
+}
+.opacity_70{
+  opacity: 70%;
+}
+.max-w-894{
+  max-width: 894px;
+}
+.max-w-185{
+  max-width: 185px;
+}
+.max-w-196{
+  max-width: 196px;
+}
+.max-w-237{
+  max-width: 237px;
+}
+.pb-lg-141{
+  padding-bottom: 141px;
+}
+.gap-lg-18{
+  gap: 18px;
+}
 
 @media (min-width:576px) {
   :root{
@@ -441,7 +475,7 @@ bottom: 0px;
     border: 1px solid var(--fc-white);
     padding: 19px 32px;
     border-radius: 189px;
-    background: var(--fc-black);
+    background: transparent
   }
   :root{
    

@@ -23,9 +23,6 @@ function Ecosystem() {
                 <div className="col-lg-5 d-flex justify-content-center align-items-center">
                      <img className='w-100 max-w-lg-565 max-w-466' src={EcosystemImg} alt="EcosystemImg" />
                 </div>
-                 {/* <div className="col-lg-5">
-                     <img className='w-100 max-w-md-565 h-md-574 ' src={utilityImg} alt="utilityImg" />
-                </div> */}
                 <div className="col-lg-6 pt-lg-5 pt-3">
                 <div className='d-flex align-items-center gap-23'>
                             <img className='w-100 max-w-59' src={DexImg2} alt="DexImg2"/>
