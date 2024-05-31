@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import AppBox from './components/AppBox';
 import AboutUs from './components/AboutUs';
 import Tokeonomics from './components/Tokeonomics';
+import Utility from './components/Utility';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <AppBox/>
     <AboutUs/>
     <Tokeonomics/>
+    <Utility/>
     </div>
   );
 }

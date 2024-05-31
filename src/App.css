@@ -7,7 +7,7 @@
 :root {
   --fs-xxxs: 14px;
   --fs-xxs: 14.83px;
-  --fs-sm: 12px;
+  --fs-sm: 14px;
   --fs-md: 14px;
   --fs-2md: 24px;
   --fs-3md: 32px;
@@ -372,6 +372,33 @@ bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/* ================================== utility ====================== */
+.w_441{
+  max-width: 441px;
+}
+.h-544{
+  height: 544px;
+}
+
+
+.fuding_pstn_1{
+  top: 10%;
+  left: 12%;
+}
+.fuding_pstn_2{
+  top: 10%;
+  right: 36%;
+}
+.fuding_pstn_3{
+  bottom: 12%;
+  right: 46%;
+}
+.pb-15{
+  padding-bottom: 15px;
+}
+.pt-20{
+  padding-top: 20px;
+}
 
 @media (min-width:576px) {
   :root{
@@ -436,6 +463,9 @@ bottom: 0px;
     padding-top: 90px;
     padding-bottom: 90px;
   }
+  .pt-md-70{
+    padding-top: 70px;
+  }
 }
 @media (min-width:992px) {
   .pb-lg-62{
@@ -464,12 +494,21 @@ bottom: 0px;
   .tokeonomics-bg-img{
     background-image: url(./assets/Images/png/tokeonomics-bg-img.png);
     /* background-position: center; */
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   .py-lg-255{
     padding-top: 255px;
     padding-bottom: 255px;
+  }
+  .pt-lg-144{
+    padding-top: 144px;
+  }
+  .pb-lg-20{
+    padding-bottom: 20px;
+  }
+  .pb-lg-27{
+    padding-bottom: 27px;
   }
 }
 
@@ -484,12 +523,15 @@ bottom: 0px;
 }
 
 @media (min-width:1535.99px){
- .custom-container{
+ /* .custom-container{
   max-width: 1440px !important;
   padding-left: 12px;
   padding-right: 12px;
   margin-left: auto;
   margin-right: auto;
+ } */
+ .container{
+  max-width: 1440px !important;
  }
  .min_vh_100{
   min-height: 100vh;
