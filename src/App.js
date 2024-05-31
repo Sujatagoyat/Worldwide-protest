@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs';
 import Tokeonomics from './components/Tokeonomics';
 import Utility from './components/Utility';
 import Place from './components/Place';
+import Ecosystem from './components/Ecosystem';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Tokeonomics/>
     <Utility/>
     <Place/>
+    <Ecosystem/>
     </div>
   );
 }

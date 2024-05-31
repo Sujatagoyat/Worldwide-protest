@@ -7,7 +7,7 @@
 :root {
   --fs-xxxs: 14px;
   --fs-xxs: 14.83px;
-  --fs-sm: 14px;
+  --fs-sm: 16px;
   --fs-md: 14px;
   --fs-2md: 24px;
   --fs-3md: 32px;
@@ -126,7 +126,7 @@
 }
 
 .lh-25 {
-  line-height: 15px;
+  line-height: 25px;
 }
 
 .lh-29 {
@@ -293,8 +293,12 @@ bottom: 0px;
 }
 
 /* ======================== tokeonomics ============================== */
-
-
+.gap-10{
+  gap: 10px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
 .opacity_80{
   opacity: 80%;
 }
@@ -362,12 +366,7 @@ bottom: 0px;
   border: 1px solid var(--fc-black);
   padding: 16px 72px;
 }
-.gap-lg-18{
-  gap: 18px;
-}
-.mb-lg-18{
-  margin-bottom: 18px;
-}
+
 .py-20{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -379,7 +378,6 @@ bottom: 0px;
 .h-544{
   height: 544px;
 }
-
 
 .fuding_pstn_1{
   top: 10%;
@@ -410,7 +408,25 @@ bottom: 0px;
   background: var(--fc-yellow);
   Rotate :-2.02deg;
 }
+/* ============================ ecosystem ===================== */
 
+.h-550{
+  height: 550px;
+}
+.pt-13{
+  padding-top: 13px;
+}
+.news-pstn{
+  top: 10%;
+  left: 5%;
+}
+.spacks-pstn{
+  bottom: 3%;
+  right: 5%;
+}
+.max-w-466{
+  max-width: 466px;
+}
 
 @media (min-width:576px) {
   :root{
@@ -428,7 +444,7 @@ bottom: 0px;
     background: var(--fc-black);
   }
   :root{
-    --fs-sm: 16px;
+   
     --fs-md: 20px;
     --fs-lg: 30px;
     --fs-xl: 40.44px;
@@ -481,6 +497,25 @@ bottom: 0px;
   }
   .lh-43 {
     line-height: 38.57px;
+  }
+  .gap-md-18{
+    gap: 18px;
+  }
+  .mb-md-18{
+    margin-bottom: 18px;
+  }
+  .py_md_50_31{
+    padding-top: 50px;
+    padding-bottom: 31px;
+  }
+  .pb-md-33{
+    padding-bottom: 33px;
+  }
+  .max-w-md-565{
+    max-width: 565px;
+  }
+  .h-md-574{
+    height: 574px;
   }
 }
 @media (min-width:992px) {
@@ -535,6 +570,13 @@ bottom: 0px;
   .mt-md-40{
     margin-top: 40px;
   }
+  .py_lg_177_61{
+    padding-top: 177px;
+    padding-bottom: 61px;
+  }
+  .max-w-lg-565{
+    max-width: 565px;
+  }
 }
 
 @media (min-width:1200px) {
@@ -545,6 +587,7 @@ bottom: 0px;
     top: 71%;
     left: 36%;
   }
+ 
 }
 
 @media (min-width:1535.99px){
@@ -565,6 +608,11 @@ bottom: 0px;
 @media (min-width:1400px) and (max-width:1535.99px){
   .container{
     max-width: 1140px !important;
+  }
+}
+@media (max-width:1200px) {
+  .flex_wrap{
+    flex-wrap: wrap;
   }
 }
 
@@ -611,6 +659,11 @@ bottom: 0px;
   }
   .token_bg_black{
     background: var(--fc-black);
+  }
+}
+@media (max-width:576px) {
+  .w_100{
+    width: 100%;
   }
 }
 
