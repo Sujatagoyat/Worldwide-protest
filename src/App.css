@@ -468,10 +468,7 @@ bottom: 0px;
   margin-bottom: 50px;
 }
 /* ========================= latest news ================================ */
-.py_lg_125_96{
-  padding-top: 125px;
-  padding-bottom: 96px;
-}
+
 .latest_card{
   max-width: 367px;
   width: 100%;
@@ -493,9 +490,7 @@ bottom: 0px;
 .mb-lg-27{
   margin-bottom: 27px;
 }
-.pb-lg-96{
-  padding-bottom: 96px;
-}
+
 .phone-pstn{
   top: 14%;
   left: 9%;
@@ -507,6 +502,10 @@ bottom: 0px;
 .laptop_pstn{
   top: 4%;
   right: 5%;
+}
+.slick-track{
+  display: flex !important;
+  gap: 18px !important;
 }
 
 @media (min-width:576px) {
@@ -598,6 +597,9 @@ bottom: 0px;
   .h-md-574{
     height: 574px;
   }
+  .pb-md-45{
+    padding-bottom: 45px;
+  }
 }
 @media (min-width:992px) {
   .pb-lg-62{
@@ -663,6 +665,13 @@ bottom: 0px;
     /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .py_lg_125_96{
+    padding-top: 125px;
+    padding-bottom: 96px;
+  }
+  .pb-lg-96{
+    padding-bottom: 96px;
   }
 }
 
