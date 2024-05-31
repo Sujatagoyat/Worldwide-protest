@@ -4,13 +4,49 @@ import YellowLine2 from '../assets/Images/svg/yellow-line-2.svg'
 import YellowLine3 from '../assets/Images/svg/yellow-line-3.svg'
 import YellowLine4 from '../assets/Images/svg/yellow-line-4.svg'
 import YellowLine5 from '../assets/Images/svg/yellow-line-5.svg'
+import Slider from "react-slick";
 
 function Roadmap() {
+  var setting = {
+    dots: true,
+    infinite: true,
+    // autoplay:true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  };
   return (
-    <div className='roadmap-bg-img py-lg-244 token_bg_black d-none'>
+    <div className='roadmap-bg-img py-lg-244 py-md-70 py-sm-40 py-20 token_bg_black'>
           <h2 className='fw-extrabold text-64 lh-77 clr-white ff-inter text-center mb-0 pb-lg-20 pb-10'>ROADMAP</h2> 
-          <p className='fw-normal text-16 lh-30 ff-inter clr-white opacity_70 max-w-894 mx-auto text-center mb-0 pb-lg-141'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>  
-          <div className='d-flex gap-2'>
+          <p className='fw-normal text-16 lh-30 ff-inter clr-white opacity_70 max-w-894 mx-auto text-center mb-0 pb-lg-141 pb-md-60 pb-sm-40 pb-20'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>  
+          <Slider {...setting}>
+          {/* <div className='d- flex gap-2'> */}
             <div className='d-flex align-items-end'>             
                 <img src={YellowLine} alt="YellowLine" />
                 <div>
@@ -46,7 +82,8 @@ function Roadmap() {
                <p className='fw-normal text-16 lh-30 ff-inter clr-white opacity_70 max-w-237 mb-0'> Explore new use cases and  integrations for $LHGG.</p>
                </div>
             </div>
-            </div>  
+            {/* </div>  */}
+            </Slider> 
     </div>
   )
 }
