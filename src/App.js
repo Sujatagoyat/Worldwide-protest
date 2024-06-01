@@ -13,6 +13,7 @@ import Place from './components/Place';
 import Ecosystem from './components/Ecosystem';
 import Roadmap from './components/Roadmap';
 import LatestNews from './components/LatestNews';
+import Socialmedia from './components/Socialmedia';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
     <Ecosystem/>
     <Roadmap/>
     <LatestNews/>
+   <Socialmedia/>
     </div>
   );
 }
