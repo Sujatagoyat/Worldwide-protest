@@ -198,6 +198,7 @@
 .pt-40{
   padding-top: 40px;
 }
+
 .buy-btn{
   background: var(--fc-yellow);
   border-radius: 189px;
@@ -213,11 +214,9 @@
 .btn-style{
   transition: all 200ms linear;
 }
-.flex_grow{
-  flex-grow: 1 !important;
-}
-.h_754{
-  height: 597px;
+
+.h_605{
+  height: 605px;
 }
 
 .mb-lg-36{
@@ -230,14 +229,17 @@
 bottom: 0px;
   right: 0;
 }
-/* .max-w-450{
-  max-width: 450px;
-} */
+.max-w-507{
+  max-width: 507px;
+}
 .ps-10{
   padding-left: 10px;
 }
 .pb-20{
   padding-bottom: 20px;
+}
+.pt-50{
+  padding-top: 50px;
 }
 /* ======================= social media box ========================= */
 .yellow-box{
@@ -268,11 +270,11 @@ bottom: 0px;
   max-width: 700px;
 }
 .Fuding_pstn_1{
-  top: 0;
+  top: 11%;
   left: 10%;
 }
 .Fuding_pstn_2{
-  bottom:-28px;
+  bottom: 52px;
   left: 15%;
 }
 .Fuding_pstn_3{
@@ -288,6 +290,10 @@ bottom: 0px;
 .py-10{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.Spacks_pstn{
+  bottom: -14%;
+  right: -5%;
 }
 
 /* ======================== tokeonomics ============================== */
@@ -410,9 +416,7 @@ bottom: 0px;
   Rotate :-2.02deg;
 }
 /* ============================ ecosystem ===================== */
-.max-w-550{
-  max-width: 550px;
-}
+
 .h-550{
   height: 550px;
 }
@@ -581,6 +585,9 @@ bottom: 0px;
   .pb-sm-30{
     padding-bottom: 30px;
   }
+  .h_sm-680{
+    height: 680px;
+  }
 }
 @media (min-width:768px) {
   .btnn{
@@ -609,9 +616,7 @@ bottom: 0px;
   .pb-md-32{
     padding-bottom: 32px;
   }
-  .h_754{
-    height: 754px;
-  }
+ 
   .gap-md-22{
     gap: 22px;
   }
@@ -692,10 +697,16 @@ bottom: 0px;
   .max-w-md-123{
     max-width: 123px;
   }
+  .pt-md-80{
+    padding-top: 80px;
+  }
 }
 @media (min-width:992px) {
   .pb-lg-62{
     padding-bottom: 62px;
+  }
+  .h_lg_754{
+    height: 754px;
   }
   .Fuding_pstn_3{
     top: 80%;
@@ -707,10 +718,7 @@ bottom: 0px;
   .max-w-lg-688{
     max-width: 688px !important;
   }
-  .py_lg_134_104{
-    padding-top: 134px;
-    padding-bottom: 104px;
-  }
+ 
   .gap-lg-59{
     gap: 59px;
   }
@@ -776,6 +784,21 @@ bottom: 0px;
   .pl-lg-66{
     padding-left: 66px;
  }
+ .pt-lg-141{
+  padding-top: 141px;
+ }
+ .py-lg-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+ .max-w-550{
+  max-width: 550.32px;
+}
+.py_lg_100_80{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
 }
 
 @media (min-width:1200px) {
@@ -784,25 +807,40 @@ bottom: 0px;
   }
   .Fuding_pstn_3{
     top: 71%;
-    left: 36%;
+    left: 33%;
   }
- 
+  .py_xl_232_104{
+    padding-top: 232px;
+    padding-bottom: 104px;
+  }
+}
+@media (min-width:1440px) {
+  .Spacks_pstn{
+    bottom: -14%;
+    right: -12%;
+  }
 }
 
 @media (min-width:1535.99px){
- /* .custom-container{
-  max-width: 1440px !important;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-left: auto;
-  margin-right: auto;
- } */
  .container{
   max-width: 1440px !important;
  }
  .min_vh_100{
   min-height: 100vh;
  }
+ .flex_grow{
+  flex-grow: 1 !important;
+}
+.align_items_center{
+  align-items: center;
+}
+.justify_content_center{
+  justify-content: center;
+}
+.hero_img{
+ top: 37%;
+    right: 0;
+  }
 }
 @media (min-width:1400px) and (max-width:1535.99px){
   .container{

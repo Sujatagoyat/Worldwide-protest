@@ -1,5 +1,5 @@
 import React from 'react'
-import dextool from '../assets/Images/svg/dextools_logo.png.svg'
+import dextool from '../assets/Images/png/dex_nav.png'
 import twiter from '../assets/Images/svg/x_logo.svg.svg'
 import telegram from '../assets/Images/svg/telegram_symbol.svg.svg'
 import heroimg from '../assets/Images/png/hero-sec-img.png'
@@ -7,9 +7,9 @@ import btnimg from '../assets/Images/svg/btn-img.svg'
 
 function HeroSection() {
     return (
-        <div className='bg-black min_vh_100 h_754 d-flex flex-column align-item s-center position-relative '>
-            <div className='hero_img position-absolute'>
-                <img className='opacity_30 max_w_xl_576 max-w-450' src={heroimg} alt="heroimg" />
+        <div className='bg-black min_vh_100 h_lg_754 h_sm-680 h_605 d-flex flex-column align-item s-center position-relative '>
+            <div className='hero_img position-absolute max_w_xl_576 max-w-507 w-100'>
+                <img className='opacity_30 ' src={heroimg} alt="heroimg" />
                 </div>
             <div className='container custom-container'>
                 <div className='d-flex align-items-center justify-content-between pt-40 '>
@@ -31,7 +31,7 @@ function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className='d-flex flex-column flex_grow align-items-center justify-content-center '>
+            <div className='d-flex flex-column flex_grow align_items_center justify_content_center pt-lg-141 pt-md-80 pt-50'>
                 <div className='container custom-container '>
                     <div className="row">
                         <div className="col-lg-6 position-relative z-1">
