@@ -38,7 +38,7 @@ function HeroSection() {
                             <h1 className='fw-extrabold text-108 lh-130 ff-inter clr-white mb-0'>G<span className='clr-yellow'>G</span></h1>
                             <p className='fw-semibold text-20 lh-24 ff-inter clr-white mb-0 pb-lg-62 pb-md-32 pb-20'>Join The<span className='clr-yellow'> Worldwide Blockchain</span> Protest Against Corrupt Government Bodies</p>
                             <div className='d-flex align-items-center gap-20 mb-lg-36'>
-                                <button className='fw-semibold text-16 lh-19 ff-inter buy-btn clr-black btn-style-2'>Buy $GrayGensler</button>
+                                <button className='fw-semibold text-16 lh-19 ff-inter buy-btn clr-black '>Buy $GrayGensler</button>
                                 <button className='fw-600 text-16 lh-19 ff-inter clr-white btnn btn-style '>How To Buy?</button>
                             </div>
                             <button className='fw-400 text-20 lh-30 clr-white btnn '>dwqjddj324dnewdne3dewrrets <span className='ps-lg-19 ps-10

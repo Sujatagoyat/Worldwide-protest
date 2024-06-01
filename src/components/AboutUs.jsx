@@ -7,6 +7,7 @@ import teleImg from '../assets/Images/svg/telegram-img.svg'
 import CircleImg from '../assets/Images/svg/circle-img.svg'
 import FudingImg from '../assets/Images/png/fuding-img.png'
 import LovefudingImg from '../assets/Images/svg/I love FUDing.svg'
+import SpacksImg from '../assets/Images/svg/spacks-img.svg'
 
 function AboutUs() {
   return (

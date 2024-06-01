@@ -2,6 +2,7 @@ import React from 'react'
 import UtilityImg from '../assets/Images/png/utility-img.png'
 import utilityFuding1 from '../assets/Images/svg/utility-fuding-1.svg'
 import utilityFuding2 from '../assets/Images/svg/utility-fuding-2.svg'
+import PageImg from '../assets/Images/svg/page.svg'
 
 function Utility() {
   return (
@@ -14,6 +15,9 @@ function Utility() {
         </div>
         <div className='fuding_pstn_3 position-absolute d-lg-block d-none'>
             <img src={utilityFuding2} alt="utilityFuding1" />
+        </div>
+        <div className='page_pstn position-absolute d-lg-block d-none'>
+            <img src={PageImg} alt="PageImg" />
         </div>
         <div className='container'>
             <div className="row justify-content-between">

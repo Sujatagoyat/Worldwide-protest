@@ -14,6 +14,7 @@ import Ecosystem from './components/Ecosystem';
 import Roadmap from './components/Roadmap';
 import LatestNews from './components/LatestNews';
 import Socialmedia from './components/Socialmedia';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
     <Roadmap/>
     <LatestNews/>
    <Socialmedia/>
+   <Footer/>
     </div>
   );
 }
