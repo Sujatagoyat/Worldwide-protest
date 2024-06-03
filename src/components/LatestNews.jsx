@@ -46,7 +46,7 @@ function LatestNews() {
           ]
       };
   return (
-    <div className='py_lg_125_96 py_md_50_31 py-20 position-relative'>
+    <div className='py_lg_125_96 py_md_50_31 py-20 position-relative latest_bg_img'>
           <div className='phone-pstn position-absolute d-lg-block d-none'>
             <img src={Phone} alt="Phone" />
           </div>

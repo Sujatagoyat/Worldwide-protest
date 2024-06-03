@@ -11,9 +11,9 @@ import SpacksImg from '../assets/Images/svg/spacks-img.svg'
 
 function AboutUs() {
   return (
-    <div className='about-bg-img py_xl_232_104 py_lg_100_80 py-md-80-60 py-10 position-relative'>
-        <div className='Fuding_pstn_1 position-absolute d-lg-block d-none'>
-                            <img src={FudingImg} alt="FudingImg" />
+    <div className='about-bg-img py_xl_232_160 py_lg_100_80 py-md-80-60 py-10 position-relative'>
+        <div className='Fuding_pstn_1 position-absolute d-lg-block d-none '>
+                            <img className='w-100' src={FudingImg} alt="FudingImg" />
                         </div>
                         <div className='Fuding_pstn_2 position-absolute d-lg-block d-none'>
                             <img src={LovefudingImg} alt="LovefudingImg" />
@@ -21,13 +21,13 @@ function AboutUs() {
                         <div className='Fuding_pstn_3 position-absolute d-xl-block d-none'>
                             <img src={FudingImg} alt="FudingImg" />
                         </div>
-                        <div className='Spacks_pstn position-absolute d-xl-block d-none'>
+                        <div className='Spacks_pstn position-absolute d-xxl-block d-none'>
                             <img src={SpacksImg} alt="packsImg" />
                         </div>
         <div className='container'>
                 <div className="row row-gap-5">                                          
                         <div className=" d-flex align-items-center justify-content-center col-lg-6">
-                        <img className='w-100' src={AboutImg} alt="AboutImg" />
+                        <img className='w-100 max-w-lg-688 max-w-488' src={AboutImg} alt="AboutImg" />
                         </div>                    
                     <div className=" col-lg-6">
                         <div className='d-flex align-items-center gap-23'>

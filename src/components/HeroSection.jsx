@@ -31,7 +31,7 @@ function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className='d-flex flex-column flex_grow align_items_center justify_content_center pt-lg-141 pt-md-80 pt-50'>
+            <div className='d-flex flex-column flex_grow align_items_center justify_content_center pt-lg-98 pt-md-80 pt-50'>
                 <div className='container custom-container '>
                     <div className="row">
                         <div className="col-lg-6 position-relative z-1">

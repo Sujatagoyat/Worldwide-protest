@@ -10,9 +10,10 @@ function Roadmap() {
   var setting = {
     dots: true,
     infinite: true,
-    // autoplay:true,
+    autoplay:true,
+    rtl:true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
         {
@@ -42,10 +43,10 @@ function Roadmap() {
       ]
   };
   return (
-    <div className='roadmap-bg-img py-lg-244 py-md-70 py-sm-40 py-20 token_bg_black'>
+    <div className='roadmap-bg-img py-lg-328 py-md-70 py-sm-40 py-20 token_bg_black'>
           <h2 className='fw-extrabold text-64 lh-77 clr-white ff-inter text-center mb-0 pb-lg-20 pb-10'>ROADMAP</h2> 
           <p className='fw-normal text-16 lh-30 ff-inter clr-white opacity_70 max-w-894 mx-auto text-center mb-0 pb-lg-141 pb-md-60 pb-sm-40 pb-20'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>  
-          <Slider {...setting}>
+          <Slider {...setting} dir="rtl">
           {/* <div className='d- flex gap-2'> */}
             <div className='d-flex align-items-end'>             
                 <img src={YellowLine} alt="YellowLine" />

@@ -11,7 +11,7 @@ import utilityImg from '../assets/Images/png/utility-img-2.png'
 
 function Ecosystem() {
   return (
-    <div className='py_lg_177_61 py_md_50_31 pb-20 position-relative'>
+    <div className='py_lg_242_105 py_md_50_31 pb-20 position-relative ecosystem_bg_img'>
         <div className='news-pstn position-absolute d-lg-block d-none'>
            <img src={NewspaperImg} alt="NewspaperImg" />
         </div>

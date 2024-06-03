@@ -20,31 +20,31 @@ function Tokeonomics() {
 
                     <div className="col-lg-6 pt-lg-21 ">
                       <div className='d-flex flex_wrap align-items-center gap-md-18 gap-10 mb-md-18 mb-10 justify-content-center'>
-                        <div className="orange_box_1">
+                        <div className="orange_box_1 t_w_100">
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0 text-nowrap'> Marketing & Partnerships</p>
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>5%</p>
                         </div>
-                        <div className="orange_box_2">
+                        <div className="orange_box_2 t_w_100">
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>Reserve</p>
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>5%</p>
                         </div>
-                        <div className="orange_box_3">
+                        <div className="orange_box_3 t_w_100">
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0 text-nowrap'>Public Sale</p>
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>45%</p>
                         </div>
                       </div>
                       <div className='d-flex flex_wrap align-items-cen  ter gap-md-18 gap-10 mb-md-18 mb-10  justify-content-center'>
-                      <div className="orange_box_1">
+                      <div className="orange_box_1 t_w_100">
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0 text-nowrap'> Community Development</p>
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>15%</p>
                         </div>
-                        <div className="orange_box_5">
+                        <div className="orange_box_5 t_w_100">
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0 text-nowrap'>Ecosystem Fund</p>
                           <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>10%</p>
                         </div>
                       </div>
                       <div className='d-flex justify-content-center align-items-center justify-content-center'>
-                        <div className="orange_box_6">
+                        <div className="orange_box_6 t_w_100">
                             <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0 text-nowrap'>Team & Adisors</p>
                             <p className='fw-semibold text-20 lh-30 ff-inter clr-black text-center mb-0'>20%</p>
                           </div>

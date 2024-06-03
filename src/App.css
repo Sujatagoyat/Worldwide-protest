@@ -8,12 +8,12 @@
   --fs-xxxs: 14px;
   --fs-xxs: 14.83px;
   --fs-sm: 16px;
-  --fs-md: 14px;
+  --fs-md: 18px;
   --fs-2md: 24px;
   --fs-3md: 32px;
   --fs-lg: 28px;
   --fs-xl: 34.44px;
-  --fs-2xl: 22px;
+  --fs-2xl: 30px;
   --fs-3xl: 34px;
   --fs-4xl: 79px;
   --fs-5xl: 108.22px;
@@ -246,6 +246,9 @@ bottom: 0px;
   min-height: 136px;
   background: var(--fc-yellow);
   padding: 10px;
+  margin-top: -35px;
+  z-index: 1;
+  position: relative;
 }
 .gap-12{
   gap: 12px;
@@ -257,7 +260,9 @@ bottom: 0px;
   /* background-position: center; */
   background-repeat: no-repeat;
 }
-
+.max-w-488{
+  max-width: 488px;
+}
 .gap-23{
   gap: 23px;
 }
@@ -274,7 +279,7 @@ bottom: 0px;
   left: 10%;
 }
 .Fuding_pstn_2{
-  bottom: 52px;
+  bottom: 97px;
   left: 15%;
 }
 .Fuding_pstn_3{
@@ -384,9 +389,14 @@ bottom: 0px;
 .h-544{
   height: 544px;
 }
-
+.utility_bg_img{
+  background-image: url(./assets/Images/png/utility-bg-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .fuding_pstn_1{
-  top: 10%;
+  top: 6%;
   left: 12%;
 }
 .fuding_pstn_2{
@@ -419,7 +429,12 @@ bottom: 0px;
   Rotate :-2.02deg;
 }
 /* ============================ ecosystem ===================== */
-
+.ecosystem_bg_img{
+  background-image: url(./assets/Images/png/ecosystem-bg-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .h-550{
   height: 550px;
 }
@@ -470,7 +485,12 @@ bottom: 0px;
   margin-bottom: 50px;
 }
 /* ========================= latest news ================================ */
-
+.latest_bg_img{
+  background-image: url(./assets/Images/png/latest_bg_img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .latest_card{
   max-width: 367px;
   width: 100%;
@@ -738,8 +758,8 @@ bottom: 0px;
     padding-top: 255px;
     padding-bottom: 255px;
   }
-  .pt-lg-144{
-    padding-top: 144px;
+  .pt-lg-160{
+    padding-top: 160px;
   }
   .pb-lg-20{
     padding-bottom: 20px;
@@ -756,9 +776,9 @@ bottom: 0px;
   .mt-md-40{
     margin-top: 40px;
   }
-  .py_lg_177_61{
-    padding-top: 177px;
-    padding-bottom: 61px;
+  .py_lg_242_105{
+    padding-top: 242px;
+    padding-bottom: 105px;
   }
   .max-w-lg-565{
     max-width: 565px;
@@ -771,14 +791,14 @@ bottom: 0px;
   }
   .py_lg_125_96{
     padding-top: 125px;
-    padding-bottom: 96px;
+    padding-bottom: 118px;
   }
   .pb-lg-96{
     padding-bottom: 96px;
   }
-  .py-lg-244{
-    padding-top: 244px;
-    padding-bottom: 378px;
+  .py-lg-328{
+    padding-top: 328px;
+    padding-bottom: 427px;
   }
   .py-lg-153-120{
     padding-top: 153px;
@@ -787,8 +807,8 @@ bottom: 0px;
   .pl-lg-66{
     padding-left: 66px;
  }
- .pt-lg-141{
-  padding-top: 141px;
+ .pt-lg-98{
+  padding-top: 98px;
  }
  .py-lg-20{
   padding-top: 20px;
@@ -812,9 +832,9 @@ bottom: 0px;
     top: 71%;
     left: 33%;
   }
-  .py_xl_232_104{
+  .py_xl_232_160{
     padding-top: 232px;
-    padding-bottom: 104px;
+    padding-bottom: 160px;
   }
 }
 @media (min-width:1440px) {
@@ -842,7 +862,7 @@ bottom: 0px;
 }
 .hero_img{
  top: 37%;
-    right: 0;
+ right: 0;
   }
 }
 @media (min-width:1400px) and (max-width:1535.99px){
@@ -899,6 +919,11 @@ bottom: 0px;
   }
   .token_bg_black{
     background: var(--fc-black);
+  }
+}
+@media (max-width:768px) {
+  .t_w_100{
+    width: 100%;
   }
 }
 @media (max-width:576px) {
