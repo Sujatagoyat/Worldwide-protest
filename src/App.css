@@ -422,7 +422,7 @@ bottom: 0px;
 }
 /* ===============================place======================= */
 .place_box{
-  max-width: 1780px;
+  /* max-width: 1780px; */
   width: 100%;
   height: 136px;
   background: var(--fc-yellow);
@@ -898,7 +898,7 @@ bottom: 0px;
     flex-direction: column;
     background-color:var(--fc-yellow);
     height: 100vh;
-    width: 50%;
+    width: 100%;
     position: fixed;
     top: 0;
     right: -100%;
